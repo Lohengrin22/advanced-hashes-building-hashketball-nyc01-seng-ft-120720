@@ -7,15 +7,16 @@ def game_hash(hash)
       :team_name=> "Brooklyn Nets", 
       :colors=> ["Black", "White"],
       :players=> [
-        {:player_name=> ""},
-        {:number=> i},
-        {:shoe=> i},
-        {:points=> i},
-        {:rebounds=> i},
-        {:assists=> i},
-        {:steals=> i},
-        {:blocks=> i},
-        {:slam_dunks=> i}
+        {:player_name=> "", 
+          :number=> i, 
+          :shoe=> i, 
+          :points=> i, 
+          :rebounds=> i, 
+          :assists=> i,
+          :steals=> i,
+          :blocks=> i,
+          :slam_dunks=> i},
+          
         ]
     },
     :away=> {
