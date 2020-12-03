@@ -2,7 +2,7 @@
 require 'pry'
 
 def game_hash(hash)
-  hash_game = {
+  hash = {
     :home=> {
       :team_name=> "Brooklyn Nets", 
       :colors=> ["Black", "White"],
@@ -115,5 +115,5 @@ def game_hash(hash)
         ]
     }
   }
-  return hash_game 
+  return hash 
 end 
