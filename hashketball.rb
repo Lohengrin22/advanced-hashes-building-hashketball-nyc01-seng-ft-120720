@@ -16,6 +16,7 @@ def game_hash(hash)
           :steals=> i,
           :blocks=> i,
           :slam_dunks=> i},
+          
         {:player_name=> "", 
           :number=> i, 
           :shoe=> i, 
@@ -25,6 +26,7 @@ def game_hash(hash)
           :steals=> i,
           :blocks=> i,
           :slam_dunks=> i},
+          
         {:player_name=> "", 
           :number=> i, 
           :shoe=> i, 
@@ -34,6 +36,7 @@ def game_hash(hash)
           :steals=> i,
           :blocks=> i,
           :slam_dunks=> i},
+          
         {:player_name=> "", 
           :number=> i, 
           :shoe=> i, 
@@ -43,6 +46,7 @@ def game_hash(hash)
           :steals=> i,
           :blocks=> i,
           :slam_dunks=> i},
+          
          {:player_name=> "", 
           :number=> i, 
           :shoe=> i, 
