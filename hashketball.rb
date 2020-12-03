@@ -6,7 +6,7 @@ def game_hash(hash)
     :home=> {
       :team_name=> "", 
       :colors=> ["", ""],
-      :player=> [
+      :players=> [
         {:player_name=> ""},
         {:number=> i},
         {:shoe=> i},
