@@ -1,1 +1,37 @@
 # Write your code here!
+require 'pry'
+
+def game_hash(hash)
+  hash_game = {
+    :home=> {
+      :team_name=> "", 
+      :colors=> ["", ""],
+      :player=> [
+        {:player_name=> i},
+        {:number=> i},
+        {:shoe=> i},
+        {:points=> i},
+        {:rebounds=> i},
+        {:assists=> i},
+        {:steals=> i},
+        {:blocks=> i},
+        {:slam_dunks=> i}
+        ]
+    },
+    :away=> {
+      :team_name=> "", 
+      :colors=> ["", ""],
+      :player=> [
+        {:player_name=> i},
+        {:number=> i},
+        {:shoe=> i},
+        {:points=> i},
+        {:rebounds=> i},
+        {:assists=> i},
+        {:steals=> i},
+        {:blocks=> i},
+        {:slam_dunks=> i}
+        ]
+    }
+  }
+end 
